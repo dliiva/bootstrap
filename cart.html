@@ -102,12 +102,65 @@
                             <p>Tarne: <span class="text-primary">tasuta</span></p>
                             <p>Kokku: <span class="text-primary">15.99&#8364;</span></p>
                         </div>
-                        <div class="p-2 mx-auto">
-                            <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
+                        
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-start flex-column">
+                    <!-- TODO! --->
+                    <div class="mb-auto p-2 row">
+                        <div class="col-lg-6">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                <label for="fname">Eesnimi:</label>
+                                <input type="text" class="form-control" placeholder="Sisesta eesnimi" id="fname">
+                                </div>
+                                <div class="form-group">
+                                <label for="lname">Perekonnanimi:</label>
+                                <input type="text" class="form-control" placeholder="Sisesta perekonnanimi" id="lname">
+                                </div>
+                                <div class="form-group">
+                                <label for="email">E-postiaadress:</label>
+                                <input type="email" class="form-control" placeholder="Sisesta e-post" id="email">
+                                </div>
+                                <div class="form-group">
+                                <label for="phone">Telefoninumber:</label>
+                                <input type="tel" class="form-control" placeholder="Sisesta telefoninumber" id="phonenr">
+                                </div>
+                                <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox">Jäta mind meelde
+                                </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-6">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="tarneaadress">Vali pakiautomaat:</label>
+                                    <select class="form-control">
+                                        <option>Rimi</option>
+                                        <option>Maxima</option>
+                                        <option selected="selected">Selver</option>
+                                    </select>
+                                </div>
+                                <p>Vali pank:</p>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optradio"><img src="swedbank.svg" alt="LHV" width="100%">
+                                    </label>
+                                  </div>
+                                  <br>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input type="radio" class="form-check-input" name="optradio"><img src="LHV-logo-1.png" alt="LHV" width="100%">
+                                    </label>
+                                  </div>
+                                  <br>
+                                  <div class="p-2 mx-auto">
+                                    <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Maksa</a>
+                                </div>
+                                </form>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                    <!-- TODO! --->
                     </div>           
                 </div>   
             </div>
